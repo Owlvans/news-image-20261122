@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1024px;height:1024px;overflow:hidden;background:#f6f1e3;color:#191813;font-family:'Liberation Sans','DejaVu Sans',sans-serif;padding:8px 18px 10px}
+.serif{font-family:'Liberation Serif','DejaVu Serif',serif}
+.top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px double #191813;padding-bottom:5px}
+.top .brand{color:#b3231b;font-weight:bold;font-size:15px;letter-spacing:2.5px}
+.top .meta{font-size:10.5px;letter-spacing:1.6px;color:#44403a}
+h1.mast{font-family:'Liberation Serif','DejaVu Serif',serif;font-size:47px;font-weight:bold;text-align:center;line-height:1.04;padding:3px 0 1px}
+.sub{text-align:center;font-style:italic;font-family:'Liberation Serif','DejaVu Serif',serif;font-size:14.5px;color:#3d3a33;border-bottom:1.5px solid #191813;padding-bottom:3px}
+.stats{display:flex;border-bottom:1.5px solid #191813}
+.stat{flex:1;padding:4px 10px 4px;border-left:3px solid #b3231b}
+.stat:first-child{border-left:none;padding-left:2px}
+.stat b{display:block;font-family:'Liberation Serif','DejaVu Serif',serif;font-size:24px;line-height:1}
+.stat span{font-size:9.5px;color:#454139;line-height:1.25;display:block;margin-top:2px}
+.regions{display:flex;height:16px;margin:4px 0 5px;font-size:9.5px;font-weight:bold;color:#fff}
+.regions div{display:flex;align-items:center;justify-content:center;letter-spacing:.4px}
+.chip{display:inline-block;font-size:8px;font-weight:bold;letter-spacing:.8px;padding:1.5px 5px;border-radius:2px;color:#fff;vertical-align:2px}
+.c-conf{background:#2e7d46}.c-off{background:#205f9e}.c-rep{background:#b07d1e}.c-claim{background:#8e2f28}
+.num{display:inline-flex;align-items:center;justify-content:center;background:#b3231b;color:#fff;border-radius:50%;width:15px;height:15px;font-size:10px;font-weight:bold;margin-right:4px;vertical-align:-2px}
+.kick{font-size:10px;font-weight:bold;letter-spacing:1.1px;color:#8e2f28;margin:3px 0 1px}
+.leads{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.lead .art{height:96px;border:1px solid #c9c0a8;position:relative;overflow:hidden}
+.lead h3{font-family:'Liberation Serif','DejaVu Serif',serif;font-size:19px;line-height:1.1;margin:1px 0 2px}
+.lead p{font-size:10.3px;line-height:1.24;color:#33302a}
+.lead p .src{color:#77705f;font-size:10px}
+.mids{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:5px}
+.mid .art{height:38px;position:relative;overflow:hidden;border:1px solid #c9c0a8}
+.mid .banner{position:absolute;left:0;top:0;color:#fff;font-weight:bold;font-size:10.5px;letter-spacing:.6px;padding:2.5px 7px}
+.mid .loc{font-size:9px;font-weight:bold;letter-spacing:.9px;color:#8e2f28;margin:3px 0 1px}
+.mid h4{font-family:'Liberation Serif','DejaVu Serif',serif;font-size:14px;line-height:1.12;margin-bottom:1px}
+.mid p{font-size:9.2px;line-height:1.2;color:#3a372f}
+.mid p .src{color:#7d7663;font-size:9px}
+.bottom{display:flex;gap:14px;margin-top:4px;border-top:1.5px solid #191813;padding-top:3px}
+.mapwrap{width:452px;flex:none}
+.mapwrap h5,.briefs h5{font-size:11px;letter-spacing:1.6px;border-bottom:1px solid #b9b09a;padding-bottom:2px;margin-bottom:2px}
+.briefs{flex:1}
+.briefs h5 span{color:#8e2f28}
+.brief-cols{columns:2;column-gap:16px}
+.brief{font-size:9.6px;line-height:1.1;margin-bottom:2px;break-inside:avoid;color:#2c2a24}
+.brief b{color:#191813}
+.brief .n{font-weight:bold}
+.brief .src{color:#7d7663;font-size:9.8px}
+</style></head><body>
+<div class="top"><div class="brand">THE WORLD IN ONE DAY</div><div class="meta">26 SUNDAY STORIES &middot; 7 REGIONS &amp; ORBIT &middot; EVERY ONE DATED SUNDAY 22 NOVEMBER 2026</div></div>
+<h1 class="mast">Sunday 22 November 2026</h1>
+<div class="sub">Climate talks end with no deal &middot; A Russian corvette sinks in Libya &middot; Four die near Kyiv</div>
+<div class="stats">
+<div class="stat"><b>No deal</b><span>COP31&rsquo;s cover decision not adopted in Antalya</span></div>
+<div class="stat"><b>4</b><span>killed at Dymer near Kyiv; about 10 still missing</span></div>
+<div class="stat"><b>258</b><span>House seats for the Democrats, the most since 1992</span></div>
+<div class="stat"><b>114</b><span>ships through Hormuz in 3 days, vs 138 a day in 2025</span></div>
+<div class="stat"><b>$450M</b><span>Skubal&rsquo;s record nine-year Mets contract</span></div>
+<div class="stat"><b>720</b><span>India&rsquo;s record Test total in New Zealand</span></div>
+</div>
+<div class="regions">
+<div style="background:#205f9e;width:220px">Europe 6</div>
+<div style="background:#b07d1e;width:70px">Asia 2</div>
+<div style="background:#8e2f28;width:108px">Middle East 3</div>
+<div style="background:#2e7d46;width:144px">Africa 4</div>
+<div style="background:#5b4a9e;width:220px">Americas 6</div>
+<div style="background:#1f7a8c;width:108px">Oceania 3</div>
+<div style="background:#55524b;width:118px">Orbit 1 &middot; Global 1</div>
+</div>
+
+<div class="leads">
+<article class="lead">
+<div class="art"><svg width="100%" height="96" viewBox="0 10 320 106">
+<rect width="320" height="138" fill="#dcead9"/>
+<circle cx="92" cy="64" r="40" fill="#7fb2d9"/><path d="M62 48 q14-12 30-6 q-8 10-6 20 q-14-2-24-14z" fill="#5da465"/><path d="M100 90 q16 4 24-8 q-2 16-16 20 q-8-4-8-12z" fill="#5da465"/><path d="M72 86 q10 10 22 8 q-8 10-20 6 q-6-8-2-14z" fill="#5da465"/>
+<g transform="translate(196,30)"><rect x="0" y="0" width="62" height="80" fill="#f7f2e3" stroke="#8a8578" stroke-width="1.6"/><line x1="10" y1="16" x2="52" y2="16" stroke="#b9b09a" stroke-width="3"/><line x1="10" y1="28" x2="52" y2="28" stroke="#b9b09a" stroke-width="3"/><line x1="10" y1="40" x2="44" y2="40" stroke="#b9b09a" stroke-width="3"/><path d="M16 52 L46 74 M46 52 L16 74" stroke="#c62f24" stroke-width="6"/></g>
+<g transform="translate(282,64)"><circle r="27" fill="#f4efe0" stroke="#3d3a33" stroke-width="3"/><line x1="0" y1="0" x2="0" y2="-17" stroke="#3d3a33" stroke-width="3.5"/><line x1="0" y1="0" x2="13" y2="7" stroke="#b3231b" stroke-width="3.5"/><circle r="3.5" fill="#3d3a33"/></g>
+<rect x="10" y="10" width="142" height="24" fill="#b3231b"/><text x="18" y="27" font-family="Liberation Sans" font-weight="bold" font-size="14.5" fill="#fff">COP31: NO DEAL</text>
+<rect x="10" y="96" width="118" height="19" fill="#191813"/><text x="17" y="110" font-family="Liberation Sans" font-size="10.5" fill="#fff">2 days into overtime</text>
+</svg></div>
+<div class="kick"><span class="num">1</span>ANTALYA, T&Uuml;RKIYE &middot; CLIMATE <span class="chip c-conf">CONFIRMED</span></div>
+<h3>Climate talks end in overtime with no deal</h3>
+<p>COP31 closed two days late with its cover decision not adopted: the presidency&rsquo;s final package never mentions fossil fuels. The EU, UK and Panama objected; President Kurum told the plenary there was no consensus. <span class="src">(Times, Euronews)</span></p>
+</article>
+<article class="lead">
+<div class="art"><svg width="100%" height="96" viewBox="0 10 320 106">
+<rect width="320" height="138" fill="#101a2c"/>
+<g fill="#f2d06b"><circle cx="36" cy="20" r="1.5"/><circle cx="96" cy="13" r="1.2"/><circle cx="160" cy="24" r="1.4"/><circle cx="228" cy="12" r="1.2"/><circle cx="292" cy="30" r="1.3"/><circle cx="60" cy="40" r="1.1"/></g>
+<path d="M0 96 H320" stroke="#2c4a6b" stroke-width="3"/>
+<path d="M30 96 Q90 62 150 74" stroke="#e8b23a" stroke-width="2.2" fill="none" stroke-dasharray="5 4"/>
+<path d="M60 96 Q130 52 196 70" stroke="#e8b23a" stroke-width="2.2" fill="none" stroke-dasharray="5 4"/>
+<g transform="translate(212,84) rotate(24)"><path d="M-58 0 L-40 -12 L34 -12 L52 0 L40 7 L-46 7Z" fill="#37414f"/><rect x="-16" y="-24" width="30" height="12" fill="#46536a"/><rect x="2" y="-32" width="7" height="9" fill="#46536a"/><circle cx="34" cy="-16" r="7" fill="#e0653a"/><circle cx="34" cy="-16" r="3.4" fill="#f2c230"/></g>
+<path d="M196 96 l8 -7 M238 100 l7 -8 M262 94 l6 -6" stroke="#7fa6c9" stroke-width="2"/>
+<rect x="10" y="10" width="146" height="24" fill="#b3231b"/><text x="18" y="27" font-family="Liberation Sans" font-weight="bold" font-size="14.5" fill="#fff">CORVETTE SUNK</text>
+<rect x="196" y="10" width="118" height="18" fill="#e8e2c8"/><text x="203" y="23" font-family="Liberation Sans" font-size="9.5" fill="#191813">Sea drones &middot; dawn</text>
+</svg></div>
+<div class="kick"><span class="num">2</span>BENGHAZI, LIBYA &middot; WAR <span class="chip c-rep">REPORTED</span></div>
+<h3>Sea drones sink a Russian corvette in Libya</h3>
+<p>Suspected Ukrainian sea drones hit the Merkury at Benghazi naval base before dawn; two got through and satellite images show her capsized. About 10 were slightly hurt; Libya&rsquo;s east asked the UN to investigate. <span class="src">(AP, Reuters)</span></p>
+</article>
+<article class="lead">
+<div class="art"><svg width="100%" height="96" viewBox="0 10 320 106">
+<rect width="320" height="138" fill="#e9e2d2"/>
+<g transform="translate(238,26)"><path d="M-30 6 L-12 -4 L12 -4 L30 6 L12 10 L-12 10Z" fill="#37414f"/><rect x="-3" y="-12" width="6" height="9" fill="#37414f"/><circle cx="0" cy="3" r="3" fill="#b3231b"/></g>
+<g><rect x="176" y="34" width="118" height="74" fill="#f7f2e3" stroke="#8a8578" stroke-width="1.6"/><g fill="#7fa6c9"><rect x="186" y="44" width="12" height="10"/><rect x="206" y="44" width="12" height="10"/><rect x="262" y="44" width="12" height="10"/><rect x="282" y="44" width="12" height="10"/><rect x="186" y="62" width="12" height="10"/><rect x="282" y="62" width="12" height="10"/><rect x="186" y="80" width="12" height="10"/><rect x="206" y="80" width="12" height="10"/><rect x="282" y="80" width="12" height="10"/></g><path d="M226 34 L240 62 L232 78 L246 108 L228 108 L222 84 L230 66 L218 40Z" fill="#c9b995"/><path d="M222 44 l10 8 M238 70 l-9 7 M226 92 l10 6" stroke="#8a8578" stroke-width="2"/></g>
+<path d="M150 108 H310" stroke="#8a8578" stroke-width="3"/>
+<rect x="10" y="10" width="138" height="24" fill="#b3231b"/><text x="18" y="27" font-family="Liberation Sans" font-weight="bold" font-size="14.5" fill="#fff">DYMER: 4 DEAD</text>
+<rect x="10" y="40" width="140" height="19" fill="#191813"/><text x="17" y="54" font-family="Liberation Sans" font-size="10.5" fill="#fff">Shahed drone &middot; Sunday am</text>
+</svg></div>
+<div class="kick"><span class="num">3</span>DYMER, UKRAINE &middot; WAR <span class="chip c-conf">CONFIRMED</span></div>
+<h3>Drone strike flattens flats near Kyiv; four dead</h3>
+<p>A Russian Shahed drone collapsed part of a five-storey block in Dymer. Four were killed and about 10 are still missing; a second strike on a Vyshneve grocery killed three. <span class="src">(Reuters)</span></p>
+</article>
+</div>
+<div class="mids">
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#2c3550"/><circle cx="158" cy="14" r="7" fill="#e8e2c8"/><g fill="#191f30"><rect x="6" y="44" width="30" height="22"/><rect x="44" y="38" width="24" height="28"/><rect x="76" y="46" width="34" height="20"/><rect x="118" y="40" width="26" height="26"/><rect x="150" y="46" width="30" height="20"/></g><g transform="translate(58,18)"><path d="M-16 4 L-6 -2 L6 -2 L16 4 L6 7 L-6 7Z" fill="#e8b23a"/><circle cx="0" cy="3" r="2.2" fill="#b3231b"/></g><path d="M58 26 L54 40" stroke="#e0653a" stroke-width="2" stroke-dasharray="3 3"/></svg><div class="banner" style="background:#8e2f28">4 &middot; KHARTOUM HIT</div></div>
+<div class="loc">KHARTOUM &middot; WAR <span class="chip c-rep">REPORTED</span></div><h4>Pre-dawn drones hit homes in Khartoum</h4><p>Strikes from 02:00 to 04:30 killed four and damaged a UN premises with staff inside. <span class="src">(AFP, UN)</span></p></article>
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#dfe5ec"/><g transform="translate(46,40)"><path d="M0 0 A26 26 0 0 1 37 -19" stroke="#37414f" stroke-width="4" fill="none"/><line x1="0" y1="0" x2="30" y2="-22" stroke="#b3231b" stroke-width="3"/><rect x="-4" y="0" width="9" height="14" fill="#37414f"/></g><path d="M96 58 Q130 16 168 12" stroke="#e0653a" stroke-width="2.4" fill="none" stroke-dasharray="5 4"/><g transform="translate(168,12)"><path d="M0-8 L2.4-2.4 L8-2.4 L3.6 1.2 L5.2 7 L0 3.6 L-5.2 7 L-3.6 1.2 L-8-2.4 L-2.4-2.4Z" fill="#e8b23a"/></g></svg><div class="banner" style="background:#8e2f28">5 &middot; RADAR CLAIM</div></div>
+<div class="loc">MANAMA, BAHRAIN &middot; WAR <span class="chip c-claim">CLAIM</span></div><h4>Iran claims hits on US Patriot radars</h4><p>Bahrain says its defences intercepted it; a US official said no US forces were hit. <span class="src">(Xinhua, CBS)</span></p></article>
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#cfe0ea"/><rect y="46" width="184" height="20" fill="#5b87a8"/><g><rect x="52" y="34" width="66" height="11" fill="#37414f"/><rect x="66" y="25" width="24" height="9" fill="#8e2f28"/><rect x="122" y="39" width="15" height="6" fill="#37414f"/></g><path d="M8 56 Q60 48 110 53 T184 52" stroke="#fff" stroke-width="2" fill="none" opacity=".6"/><text x="10" y="24" font-family="Liberation Sans" font-weight="bold" font-size="14" fill="#205f9e">114 in 3 days</text></svg><div class="banner" style="background:#205f9e">6 &middot; HORMUZ SLOWS</div></div>
+<div class="loc">STRAIT OF HORMUZ &middot; SHIPPING <span class="chip c-conf">CONFIRMED</span></div><h4>Hormuz traffic falls to a trickle</h4><p>Crossings ran far below the 2025 pace; some 25 tankers have been hit in a week. <span class="src">(UKMTO)</span></p></article>
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#e6e2ef"/><g transform="translate(128,44)"><path d="M-34 8 A34 30 0 0 1 34 8Z" fill="#5b4a9e"/><rect x="-42" y="8" width="84" height="5" fill="#37414f"/><rect x="-30" y="16" width="6" height="12" fill="#37414f"/><rect x="-10" y="16" width="6" height="12" fill="#37414f"/><rect x="10" y="16" width="6" height="12" fill="#37414f"/><rect x="26" y="16" width="6" height="12" fill="#37414f"/><path d="M0 -34 L3 -24 L-3 -24Z" fill="#b07d1e"/></g><text x="12" y="30" font-family="Liberation Serif" font-weight="bold" font-size="19" fill="#5b4a9e">258</text><text x="12" y="46" font-family="Liberation Sans" font-size="9.5" fill="#37414f">House seats</text></svg><div class="banner" style="background:#5b4a9e">7 &middot; DEMS 258</div></div>
+<div class="loc">WASHINGTON &middot; POLITICS <span class="chip c-conf">CONFIRMED</span></div><h4>Democrats reach 258 House seats</h4><p>Largest since 1992, sealed by a 330-vote recount win in North Carolina. <span class="src">(AP, Reuters)</span></p></article>
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#f3e3c2"/><circle cx="152" cy="16" r="10" fill="#e8a23a"/><path d="M14 50 L66 44 L120 26 L152 18 L172 16 L150 28 L96 46 L40 56 Z" fill="#37414f"/><path d="M120 26 L96 46 L104 47 L134 29Z" fill="#b07d1e"/><circle cx="142" cy="21" r="2.4" fill="#b3231b"/><rect x="8" y="58" width="168" height="3.4" fill="#8a8578"/></svg><div class="banner" style="background:#b07d1e">8 &middot; SHAH IN DELHI</div></div>
+<div class="loc">NEW DELHI &middot; DIPLOMACY <span class="chip c-off">OFFICIAL</span></div><h4>Nepal&rsquo;s PM begins first foreign trip</h4><p>Balendra Shah arrived for two days with 34 delegates; Modi talks follow Monday. <span class="src">(Nepal MFA, IANS)</span></p></article>
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#e8e4da"/><g transform="translate(128,32)"><rect x="-13" y="-22" width="26" height="44" rx="5" fill="#37414f"/><rect x="-8" y="-16" width="16" height="26" fill="#dcebf2"/><path d="M-16 16 L16 -14" stroke="#b3231b" stroke-width="4.4"/></g><g font-family="Liberation Sans" font-weight="bold" fill="#8e2f28"><text x="10" y="38" font-size="12.5">NO US NUMBERS</text></g></svg><div class="banner" style="background:#8e2f28">9 &middot; TELECOMS BAR</div></div>
+<div class="loc">BEIJING &middot; TRADE <span class="chip c-off">OFFICIAL</span></div><h4>Beijing condemns US telecoms bar</h4><p>China &ldquo;firmly opposes&rdquo; the FCC vote on its carriers and warns of countermeasures. <span class="src">(MOFCOM, Xinhua)</span></p></article>
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#dcebf2"/><rect y="42" width="184" height="24" fill="#46618c"/><g transform="translate(96,36)"><path d="M-52 4 L-30 -3 L26 -3 L48 4 L40 9 L-44 9Z" fill="#37414f"/><rect x="-6" y="-13" width="17" height="10" rx="3" fill="#37414f"/><circle cx="30" cy="1" r="2.4" fill="#dcebf2"/></g><path d="M8 52 Q50 47 92 51 T184 50" stroke="#fff" stroke-width="2" fill="none" opacity=".55"/><text x="10" y="20" font-family="Liberation Sans" font-weight="bold" font-size="11.5" fill="#205f9e">AUKUS</text></svg><div class="banner" style="background:#46618c">10 &middot; &ldquo;WRONG&rdquo;</div></div>
+<div class="loc">CANBERRA &middot; DEFENCE <span class="chip c-rep">REPORTED</span></div><h4>Marles: US sub report is &ldquo;wrong&rdquo;</h4><p>He rejects a CBO warning that AUKUS sales could shrink America&rsquo;s sub force. <span class="src">(Reuters)</span></p></article>
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#191813"/><g transform="translate(84,36)"><path d="M-52 8 L-30 -2 L18 -4 L46 4 L52 10 L-46 12Z" fill="#e0653a"/><circle cx="-34" cy="13" r="9" fill="#0c0c0c" stroke="#55524b"/><circle cx="36" cy="13" r="9" fill="#0c0c0c" stroke="#55524b"/><rect x="8" y="-14" width="26" height="6" rx="2" fill="#e8e2c8"/><rect x="19" y="-9" width="4.4" height="7" fill="#e8e2c8"/></g><g transform="translate(158,14)"><rect width="18" height="13" fill="#e8e2c8"/><g fill="#191813"><rect width="4.5" height="4.4"/><rect x="9" y="0" width="4.5" height="4.4"/><rect x="4.5" y="4.4" width="4.5" height="4.4"/><rect x="13.5" y="4.4" width="4.5" height="4.4"/><rect x="0" y="8.8" width="4.5" height="4.4"/><rect x="9" y="8.8" width="4.5" height="4.4"/></g></g></svg><div class="banner" style="background:#37414f">11 &middot; VERSTAPPEN</div></div>
+<div class="loc">LAS VEGAS &middot; FORMULA 1 <span class="chip c-off">OFFICIAL</span></div><h4>Verstappen wins in Las Vegas again</h4><p>A third Vegas win in four years, his 75th overall; Norris 0.639s back, Piastri third. <span class="src">(Formula 1, AP)</span></p></article>
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#dcead9"/><g transform="translate(58,32) rotate(24)"><rect x="-4" y="-24" width="9" height="46" rx="3" fill="#8a5a2b"/><rect x="-6.4" y="14" width="14" height="10" rx="2" fill="#6b4423"/></g><circle cx="130" cy="26" r="11" fill="#d8e14c" stroke="#8a9a2e" stroke-width="1.6"/><path d="M124 18 a11 11 0 0 1 12 1" stroke="#fff" stroke-width="2" fill="none"/><text x="106" y="59" font-family="Liberation Sans" font-weight="bold" font-size="11" fill="#2e7d46">FIRST FINALS TITLE</text></svg><div class="banner" style="background:#2e7d46">12 &middot; ALCARAZ</div></div>
+<div class="loc">TURIN &middot; TENNIS <span class="chip c-conf">CONFIRMED</span></div><h4>Alcaraz takes his first ATP Finals title</h4><p>He beat No. 1 Zverev 6-2, 7-6(7), saving three set points; record $5,171,000. <span class="src">(ATP, Reuters)</span></p></article>
+<article class="mid"><div class="art"><svg width="100%" height="42" viewBox="0 0 184 66" preserveAspectRatio="xMidYMid slice"><rect width="184" height="66" fill="#bfe0b2"/><path d="M0 58 Q60 50 120 55 T184 52" stroke="#7fb069" stroke-width="4" fill="none"/><g transform="translate(130,14)"><rect x="-1.6" y="0" width="3.2" height="34" fill="#e8e2c8"/><path d="M1.6 1 L24 5 L1.6 10Z" fill="#b3231b"/><circle cx="0" cy="37" r="4.4" fill="#fff" stroke="#c9c0a8"/></g><text x="10" y="26" font-family="Liberation Serif" font-weight="bold" font-size="16" fill="#2e7d46">24 under</text><text x="10" y="42" font-family="Liberation Sans" font-size="9.5" fill="#37414f">$4M &middot; money-list No. 1</text></svg><div class="banner" style="background:#2e7d46">13 &middot; THITIKUL x3</div></div>
+<div class="loc">NAPLES, FLORIDA &middot; GOLF <span class="chip c-conf">CONFIRMED</span></div><h4>Thitikul wins the LPGA finale again</h4><p>A closing 65 for 24-under 264; at 23 she passes S&ouml;renstam as LPGA money leader. <span class="src">(AP)</span></p></article>
+</div>
+<div class="bottom">
+<div class="mapwrap"><h5>WHERE IT HAPPENED</h5>
+<svg width="452" height="190" viewBox="0 0 452 210">
+<rect width="452" height="210" fill="#20344d"/>
+<g stroke="rgba(255,255,255,0.09)" stroke-width="0.7"><path d="M56 0V210M113 0V210M169 0V210M226 0V210M282 0V210M339 0V210M395 0V210M0 52H452M0 105H452M0 157H452"/></g>
+<g fill="#d9c491" stroke="#a68d54" stroke-width="1.1"><path d="M3 24 L18 17 L40 18 L59 17 L78 21 L100 24 L109 20 L116 30 L112 44 L124 38 L134 48 L140 54 L128 57 L123 63 L120 71 L114 77 L114 84 L110 78 L104 78 L98 79 L94 84 L94 99 L98 98 L107 101 L112 110 L117 110 L101 101 L85 93 L79 87 L74 80 L70 74 L64 68 L61 54 L56 45 L47 36 L26 33 L13 27Z"/><path d="M157 33 L176 21 L186 18 L188 9 L173 2 L147 9 L144 18 L150 28Z"/><path d="M117 110 L122 107 L126 105 L136 107 L147 114 L154 123 L161 127 L172 135 L167 143 L166 155 L156 162 L151 173 L145 180 L138 185 L134 191 L132 201 L130 204 L127 204 L124 192 L124 179 L127 168 L128 153 L122 146 L119 141 L115 131 L114 125 L115 117Z"/><path d="M202 59 L202 68 L206 69 L213 65 L217 60 L222 57 L213 54 L211 50 L216 47 L220 44 L224 41 L224 38 L226 35 L220 33 L220 30 L229 26 L236 20 L245 17 L251 18 L264 21 L270 24 L270 27 L274 41 L264 45 L261 53 L251 54 L248 62 L242 63 L237 60 L228 57 L222 57Z"/><path d="M228 57 L233 63 L236 63 L233 66 L232 66Z"/><path d="M207 48 L210 44 L207 39 L203 41 L201 45 L203 47Z"/><path d="M206 71 L213 69 L226 68 L238 75 L251 77 L254 77 L256 81 L258 87 L261 92 L264 101 L268 105 L278 105 L278 108 L271 116 L266 126 L264 138 L261 150 L259 156 L255 162 L249 173 L238 176 L235 171 L232 164 L230 150 L229 138 L230 125 L225 117 L203 116 L197 111 L192 105 L192 101 L193 93 L195 86 L197 81 L201 77Z"/><path d="M269 147 L272 146 L276 147 L272 159 L270 161 L267 156Z"/><path d="M270 24 L289 20 L308 15 L326 11 L345 8 L364 14 L383 17 L402 18 L414 20 L427 24 L437 26 L427 33 L417 36 L414 45 L408 48 L392 48 L389 63 L383 71 L375 74 L367 77 L364 83 L358 89 L349 96 L347 110 L343 113 L339 111 L336 105 L335 99 L329 99 L328 90 L324 91 L321 93 L314 101 L310 111 L305 99 L304 93 L299 89 L296 86 L290 86 L285 83 L284 84 L279 86 L283 87 L286 89 L288 90 L283 98 L274 102 L270 104 L268 105 L266 101 L262 92 L258 87 L256 81 L259 69 L251 68 L247 68 L251 62 L255 60 L264 53 L269 48 L274 45 L276 41 L274 33Z"/><path d="M357 156 L355 162 L358 171 L362 176 L369 173 L377 171 L383 176 L387 177 L389 180 L396 180 L398 182 L402 179 L406 171 L406 164 L403 159 L397 152 L392 140 L392 149 L384 146 L383 141 L379 140 L372 144 L367 149 L362 153Z"/><path d="M423 191 L428 186 L432 182 L434 180 L432 185 L425 192Z"/><ellipse cx="330" cy="118" rx="11" ry="3.5"/><ellipse cx="352" cy="134" rx="12" ry="3"/><ellipse cx="357" cy="122" rx="9" ry="6"/><ellipse cx="364" cy="126" rx="5" ry="4"/><ellipse cx="387" cy="129" rx="11" ry="4.5"/><circle cx="386" cy="68" r="3.5"/><circle cx="390" cy="63" r="3"/><circle cx="391" cy="57" r="2.8"/><circle cx="365" cy="102" r="3"/><circle cx="398" cy="188" r="2.5"/></g>
+<g font-family="Liberation Serif" font-style="italic" font-size="10.5" fill="rgba(255,255,255,0.4)" letter-spacing="2.5">
+<text x="24" y="120">PACIFIC</text><text x="160" y="92">ATLANTIC</text><text x="282" y="176">INDIAN</text><text x="392" y="98">PACIFIC</text>
+</g>
+<g font-family="Liberation Sans" font-weight="bold" font-size="8.5" text-anchor="middle"><g><circle cx="252" cy="56" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="252" y="58.6" fill="#fff">1</text></g><g><circle cx="236" cy="68" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="236" y="70.6" fill="#fff">2</text></g><g><circle cx="256" cy="40" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="256" y="42.6" fill="#fff">3</text></g><g><circle cx="256" cy="86" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="256" y="88.6" fill="#fff">4</text></g><g><circle cx="290" cy="74" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="290" y="76.6" fill="#fff">5</text></g><g><circle cx="318" cy="72" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="318" y="74.6" fill="#fff">8</text></g><g><circle cx="356" cy="58" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="356" y="60.6" fill="#fff">9</text></g><g><circle cx="84" cy="60" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="84" y="62.6" fill="#fff">7</text></g><g><circle cx="54" cy="62" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="54" y="64.6" fill="#fff">11</text></g><g><circle cx="230" cy="52" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="230" y="54.6" fill="#fff">12</text></g><g><circle cx="76" cy="80" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="76" y="82.6" fill="#fff">13</text></g><g><circle cx="238" cy="94" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="238" y="96.6" fill="#fff">14</text></g><g><circle cx="58" cy="88" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="58" y="90.6" fill="#fff">15</text></g><g><circle cx="130" cy="166" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="130" y="168.6" fill="#fff">16</text></g><g><circle cx="433" cy="190" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="433" y="192.6" fill="#fff">18</text></g><g><circle cx="218" cy="104" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="218" y="106.6" fill="#fff">25</text></g><g><circle cx="264" cy="22" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="264" y="24.6" fill="#fff">24</text></g><g><circle cx="93" cy="53" r="2.2" fill="#fff"/><line x1="93" y1="53" x2="100" y2="47" stroke="#fff" stroke-width="1"/><circle cx="106" cy="42" r="7.5" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="106" y="44.6" fill="#fff">20</text></g><g><circle cx="228" cy="40" r="2.2" fill="#fff"/><line x1="230" y1="36" x2="228" y2="40" stroke="#fff" stroke-width="1"/><rect x="218" y="20" width="36" height="16" rx="8" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="236" y="31" fill="#fff" font-size="8">21&middot;22</text></g><g><circle cx="300" cy="80" r="2.2" fill="#fff"/><line x1="300" y1="80" x2="308" y2="88" stroke="#fff" stroke-width="1"/><rect x="298" y="86" width="36" height="16" rx="8" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="316" y="97" fill="#fff" font-size="8">6&middot;23</text></g><g><rect x="378" y="172" width="40" height="16" rx="8" fill="#d43a2e" stroke="#fff" stroke-width="1.2"/><text x="398" y="183" fill="#fff" font-size="8">10&middot;19</text></g></g>
+</svg></div>
+<div class="briefs"><h5>ALSO ON SUNDAY 22 NOVEMBER <span>&mdash; 13 MORE STORIES</span></h5>
+<div class="brief-cols">
+<div class="brief"><span class="n" style="color:#2e7d46">&#9632; 14</span> <b>Bayelsa, Nigeria</b> Funeral-boat disaster toll rises to at least 24; the boat capsized Friday and the search goes on <span class="src">(Reuters)</span></div>
+<div class="brief"><span class="n" style="color:#5b4a9e">&#9632; 15</span> <b>Guasave, Mexico</b> &ldquo;Chapo Isidro&rdquo;, an FBI top-10 fugitive, was captured Saturday; 11 died in the operation <span class="src">(AP)</span></div>
+<div class="brief"><span class="n" style="color:#5b4a9e">&#9632; 16</span> <b>Tupanciret&atilde;, Brazil</b> Sunday storm update: 5 dead, 265 injured, 25,000+ affected after Friday&rsquo;s supercell; 7,796 roofs lost <span class="src">(AFP)</span></div>
+<div class="brief"><span class="n" style="color:#55524b">&#9632; 17</span> <b>Mercury orbit</b> ESA said Sunday BepiColombo is safe in orbit, but its insertion burn was cut short by a software glitch; orbiters separate 9&ndash;10 Dec <span class="src">(Reuters)</span></div>
+<div class="brief"><span class="n" style="color:#1f7a8c">&#9632; 18</span> <b>Wellington &middot; Cricket</b> India declare at 720/9, the highest Test total in New Zealand (Pant 128, Rahul 136); NZ 119/2, trailing by 233 <span class="src">(ESPNcricinfo)</span></div>
+<div class="brief"><span class="n" style="color:#1f7a8c">&#9632; 19</span> <b>Melbourne &middot; Cricket</b> Australia chase a record 191/7 in 19.5 overs to beat England by 3 wickets; Jacks broke his hand, out of the tour <span class="src">(ICC)</span></div>
+<div class="brief"><span class="n" style="color:#5b4a9e">&#9632; 20</span> <b>New York &middot; Baseball</b> Tarik Skubal agrees a record 9-year, $450M Mets contract, the largest ever for a pitcher, subject to a physical <span class="src">(Reuters, AP)</span></div>
+<div class="brief"><span class="n" style="color:#205f9e">&#9632; 21</span> <b>Anfield &middot; Football</b> Liverpool 4&ndash;0 Manchester United: Szoboszlai 10&prime;, Wirtz 13&prime;, Ngumoha 66&prime;, Mu&ntilde;oz 82&prime; <span class="src">(Results services)</span></div>
+<div class="brief"><span class="n" style="color:#205f9e">&#9632; 22</span> <b>Hull &middot; Football</b> Hull City 2&ndash;0 Brighton, both goals McBurnie&rsquo;s, in stoppage time: 90+2&prime; and 90+5&prime;</div>
+<div class="brief"><span class="n" style="color:#8e2f28">&#9632; 23</span> <b>Hormuz &middot; War</b> Iran says it downed a US MQ-1 east of Hormuz on Sunday, a fourth claimed interception in 24 hours; unconfirmed <span class="src">(IRGC)</span></div>
+<div class="brief"><span class="n" style="color:#205f9e">&#9632; 24</span> <b>Gulf of Finland</b> The Russian cargo ship Sparta II, hit Saturday, was towed out of Finnish waters Sunday night after a Finnish-led rescue <span class="src">(WSJ)</span></div>
+<div class="brief"><span class="n" style="color:#2e7d46">&#9632; 25</span> <b>Abidjan, C&ocirc;te d&rsquo;Ivoire</b> Six venues chosen for next year&rsquo;s Africa Cup of Nations in Kenya, Tanzania and Uganda, 19 Jun&ndash;17 Jul; final venue undecided <span class="src">(Reuters)</span></div>
+<div class="brief"><span class="n" style="color:#37414f">&#9632; 26</span> <b>World &middot; Markets</b> Bitcoin reclaims $60,000 on Sunday, closing near $60,784 (+1.2%) after a $1.8bn liquidation wipeout <span class="src">(CoinGecko)</span></div>
+</div></div>
+</div>
+<div style="margin-top:4px;background:#e9e2cf;border:1px solid #c4b995;padding:4px 10px 3px">
+<div style="font-size:10px;font-weight:bold;letter-spacing:1.2px;color:#55524b">SATURDAY 21 NOVEMBER &mdash; THE EVENTS BEHIND SUNDAY&rsquo;S HEADLINES, LABELLED SATURDAY BECAUSE THEY HAPPENED SATURDAY</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px 18px;margin-top:2px;font-size:9.4px;line-height:1.1;color:#3a372f">
+<div><b>Mercury orbit</b> BepiColombo enters Mercury orbit after an eight-year journey <span style="color:#7d7663">(ESA)</span></div>
+<div><b>Gulf of Finland</b> The cargo ship Sparta II is struck by drones in the Baltic <span style="color:#7d7663">(WSJ)</span></div>
+<div><b>Bahrain</b> Iran&rsquo;s Saturday-night strike on US bases; the claims war runs into Sunday <span style="color:#7d7663">(IRGC)</span></div>
+<div><b>Wellington</b> India 486/4 at stumps, Rahul 136 not out <span style="color:#7d7663">(AFP)</span></div>
+<div><b>Melbourne</b> Australia&rsquo;s record T20 chase is completed on Saturday evening <span style="color:#7d7663">(ICC)</span></div>
+<div><b>Las Vegas</b> The Grand Prix is run on Saturday night local time <span style="color:#7d7663">(Formula 1)</span></div>
+</div></div>
+<div style="margin-top:3px;border-top:3px double #191813;padding-top:3px;font-size:9.2px;color:#55524b;line-height:1.2"><div><b style="color:#8e2f28">HOW WE CHECKED</b> &nbsp;<span style="background:#2e7d46;color:#fff;padding:0 3px;border-radius:2px;font-weight:bold">CONFIRMED</span> = 2+ outlets &middot; <span style="background:#205f9e;color:#fff;padding:0 3px;border-radius:2px;font-weight:bold">OFFICIAL</span> = on the record &middot; <span style="background:#b07d1e;color:#fff;padding:0 3px;border-radius:2px;font-weight:bold">REPORTED</span> = one outlet &middot; <span style="background:#8e2f28;color:#fff;padding:0 3px;border-radius:2px;font-weight:bold">CLAIM</span> = one side&rsquo;s account. Map numbers match the story numbers.</div><div style="display:flex;justify-content:space-between"><div><b style="color:#8e2f28">DATE CHECK</b> &nbsp;Every story above the grey band happened, or was first reported, on Sunday 22 November 2026. Claims are attributed, not stated as fact.</div><div>Sources named beside each story &middot; Original drawings</div></div></div>
+</body></html>
